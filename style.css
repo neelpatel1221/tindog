@@ -1,103 +1,96 @@
-
-
 .title{
-     background-color: #FFE3ED;
+    background-color: #FFE3ED;
 }
 .nav-item{
-    padding: 0 1rem;
+   padding: 0 1rem;
 }
 .nav-link{
 color: #ff4c68 !important;
+font-size: 1rem;
 }
-
+.tin-img{
+   width: 200px;
+}
 .nav-link:hover{
-color: darkred !important;
+color: rgb(218, 20, 20) !important;
+text-decoration: underline;
+text-transform: uppercase;
 }
-
-    .nav-link:active{
-        transform: translateY(5px);
-    }
-.welcome-text{
-    color: #ff4c68;
+.nav-link:active{
+   transform: translateY(5px);
 }
 .container-fluid
 {
-  padding: 3% 15% 12% 15% ;
+ padding: 3% 15% 12% 15% ;
 }
-
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 .fa{
-    
-    color:  #ff4c68;
+   color:  #ff4c68;
 }
-p
-{
-    color: #5f6769;
-  line-height: 1.5;
-  padding:1rem;
-  font-size:1rem;
+p{
+ color: #5f6769;
+ line-height: 1.5;
+ padding:1rem;
+ font-size:1rem;
 }
- 
 .img 
 {
 position:relative;
-    top: -100px;
-    bottom: auto;
+   top: -100px;
+   bottom: auto;
 }
 .pos
 {
 position:relative;
 }
-
-.welcome{
-    background-color:  #FFE3ED;
+.welcome1{
+   font-weight: 500;
+   font-size: 2.5rem;
+   color: #ff4c68;
 }
-
+.welcome2{
+   font-weight: 900;
+   font-size: 4rem;
+   color: #f1304d;
+}
 .info-text{
-color:   #ff4c68;
+color: #ff4c68;
 }
 
 
 /*DOWNLOAD SECTION */
 
-
-
 .download{
-       background-color: #ff4c68;
+      background-color: #ff4c68;
 }
 .download-btn{
-    padding-right: 10px;
-    margin-right: 10px;
+   padding-right: 10px;
+   margin-right: 10px;
 }
-     .download-btn:active{
-        transform: translateY(5px);
-    }
+.download-btn:active{
+   transform: translateY(5px);
+}
 .download-h1{
-  font-family:;
-  font-size: 4rem;
-  line-height: 1.5;
-  font-weight:900;
-  color: #fff;
-  padding-bottom: 3rem;
+ font-size: 4rem;
+ line-height: 1.5;
+ font-weight:900;
+ color: #fff;
+ padding-bottom: 3rem;
 }
 .iphone6 {
-    padding-top: 6%;
-    width: 70%;
-    position: relative;
-    left: 50px;
-      transform: rotate(25deg);
-  
+   padding-top: 6%;
+   width: 70%;
+   position: relative;
+   left: 50px;
+   transform: rotate(25deg);
 }
 .iphone {
-    padding-top: 6%;
-    width: 50%;
-    position: relative;
-    left: 50px;
-   
-  
+   padding-top: 6%;
+   width: 50%;
+   position: relative;
+   left: 50px;
 }
 
 
@@ -110,25 +103,22 @@ color:   #ff4c68;
 
 .testimonials
 {
-  text-align: center;
-  background-color: #ff8260;
-  color: #fff;
+ text-align: center;
+ background-color: #ff8260;
+ color: #fff;
 }
 .test-img{
 width: 20%;
 border-radius: 100%;
 margin: 20px;
 }
-
 .h2{
-  font-family: "Montserrat";
-  font-weight: 900;
-  line-height: ;
+ font-family: "Montserrat";
+ font-weight: 900;
 }
-
 .carousel-item
 {
-    padding: 7% 15%;
+   padding: 7% 15%;
 }
 
 
@@ -136,77 +126,65 @@ margin: 20px;
 /*PRESS-LOGO SECTION */
 
 .press{
-;
-     background-color: #ff8260;
-    text-align: center;
-    padding-bottom: 4%;
+    background-color: #ff8260;
+   text-align: center;
+   padding-bottom: 4%;
 }
-
 .press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
+   width: 15%;
+   margin: 20px 20px 50px;
 }
-
-
-
-
-
 #pricing
 {
-    text-align: center;
-    background-color: #FFE3ED;
-    padding: 100px;
+   text-align: center;
+   background-color: #FFE3ED;
+   padding: 100px;
 }
-
 .card-header{
-    background-color: #ff4c68;
-    font-weight: bold;
-    
+   background-color: #ff4c68;
+   font-weight: bold;  
 }
-
 .pricing-col{
-    
-    padding: 3% 2%;
+   
+   padding: 3% 2%;
 } 
 
 
 /*call to action*/
 
 #cta{
-    
-    background-color: #ff4c68;
-  text-align: center;
-  padding-bottom: 5%;
+   
+   background-color: #ff4c68;
+ text-align: center;
+ padding-bottom: 5%;
 }
-
 .cta-h3
 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  line-height: 2;
-  color: #fff;
-  text-align: center;
-  padding: 5% 30% 5%;
+ font-family: "Montserrat";
+ font-weight: bold;
+ line-height: 2;
+ color: #fff;
+ text-align: center;
+ padding: 5% 30% 5%;
 }
 
 /*footer*/
 
 #footer{
-    background-color: #FFE3ED;
-    text-align: center;
-    padding: 5% 5%;
-    line-height: 5;
+   background-color: #FFE3ED;
+   text-align: center;
+   padding: 2% 0% 0%;
+   line-height: 2;
 }
-
 .icon{
-    margin: 5px 15px;
+   margin: 5px 15px;
 }
-
 .icon:hover{
-    color: #ff4c68;
-    cursor: pointer;
+   color: #ff4c68;
+   cursor: pointer;
+}
+.icon:active{
+  transform: translateY(5px);
 }
 
-.icon:active{
-   transform: translateY(5px);
-}
+
